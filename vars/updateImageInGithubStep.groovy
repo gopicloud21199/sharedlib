@@ -8,7 +8,7 @@ def call() {
         def imageTag = sh(script: 'cat ~/IMAGE_TAG.txt', returnStdout: true).trim()
 
         // Define your GitHub repository details and the branch to update
-        def repoUrl = "https://github.com/your-username/your-repository.git"
+        def repoUrl = "https://github.com/gopicloud21199/sample-node.js.git"
         def branch = "main"  // or any other branch you'd like to push to
         
         // Clone the repository
