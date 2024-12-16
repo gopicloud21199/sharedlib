@@ -21,8 +21,8 @@ def call() {
             git add docker_image_tag.txt
 
             # Commit and push changes
-            git config user.name "Jenkins CI"
-            git config user.email "jenkins@example.com"
+            git config user.name "gopicloud21199"
+            git config user.email "gopicloud21199@gmail.com"
             git commit -m "Update Docker image tag to ${imageTag}"
             git push origin ${branch}
         """
